@@ -15,6 +15,9 @@ public:
                 //yes I have definetly seen this element 
                 return true;
             }
+            //I must keep that in mind that this element is
+            //seen
+            hashmap[it] = true;
         }
         //uff I went thorough the whole array but could not find
         //the element which I have seen more then once
